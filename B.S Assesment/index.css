@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 500px;
+    width: 350px;
+    background-color: #e7e7e7;
+    position: relative;
+    top: 100px;
+    left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.login{
+    height: 400px;
+    width: 250px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.581), 0 6px 20px 0 rgba(0, 0, 0, 0.581);
+    border-radius: 20px;
+}
+.head{
+    width:inherit;
+    height: 80px;
+    background-image: url(twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.font{
+    width:inherit ;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    /* font-stretch: extra-expanded; */
+    text-shadow: 1px 1px #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+.uspass{
+    width: inherit;
+    height: 280px;
+   
+}
+.us{
+    width: 200px;
+    height: 30px;
+    border: 2px solid #e7e7e7;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inus{
+    border: none;
+    background-color: #e7e7e7;
+}
+.pass{
+    width: 200px;
+    height: 30px;
+    border: 2px solid #e7e7e7;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inpass{
+    border: none;
+    background-color: #e7e7e7;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #e7e7e7;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+.fp{
+    width: inherit;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
